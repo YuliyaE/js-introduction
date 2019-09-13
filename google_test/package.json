@@ -1,0 +1,20 @@
+{
+  "name": "calc.js",
+  "version": "1.0.0",
+  "description": "A simple calculator application built with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "testGoogle": "mocha tests/OpenGooglePage.test.js",
+    "test": "mocha tests/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eyes.selenium": "^3.8.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "chromedriver": "^76.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
